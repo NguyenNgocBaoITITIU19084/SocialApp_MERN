@@ -1,7 +1,14 @@
 import React from "react";
 
+import "./home.css";
+import Topbar from "../../components/topbar/Topbar";
+
 function home() {
-  return <div>this is home page!</div>;
+  return (
+    <div>
+      <Topbar />
+    </div>
+  );
 }
 
 export default home;
